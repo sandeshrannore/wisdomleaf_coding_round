@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wisdomleaf_coding_round/static/css/main.0f4a723d.css",
+    "main.js": "/wisdomleaf_coding_round/static/js/main.b5333a0e.js",
+    "static/js/787.633adbf3.chunk.js": "/wisdomleaf_coding_round/static/js/787.633adbf3.chunk.js",
+    "index.html": "/wisdomleaf_coding_round/index.html",
+    "main.0f4a723d.css.map": "/wisdomleaf_coding_round/static/css/main.0f4a723d.css.map",
+    "main.b5333a0e.js.map": "/wisdomleaf_coding_round/static/js/main.b5333a0e.js.map",
+    "787.633adbf3.chunk.js.map": "/wisdomleaf_coding_round/static/js/787.633adbf3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f4a723d.css",
+    "static/js/main.b5333a0e.js"
+  ]
+}
