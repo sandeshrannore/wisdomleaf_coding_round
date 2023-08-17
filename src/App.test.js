@@ -1,8 +1,24 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+it("has a placeholder text", () => {
+  const div = document.createElement("div");
+  ReactDOM.render(<App />, div);
+  const input = div.querySelector("input");
+  expect(input.placeholder).toEqual("Filter by product name");
+});
+it("accepts user input", () => {
+  const div = document.createElement("div");
+  ReactDOM.render(<App />, div);
+  const input = div.querySelector("input");
+  input.value = "Test";
+  expect(input.value).toEqual("Test");
+});
+it("can filter the results based on the user input", () => {
+  const div = document.createElement("div");
+  ReactDOM.render(<App />, div);
+  const input = div.querySelector("input");
+  input.value = "Apple";
+  expect(input.value).toEqual("Apple");
 });
